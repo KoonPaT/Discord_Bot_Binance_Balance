@@ -2,7 +2,6 @@ const Binance = require('node-binance-api');
 const sleep = require('await-sleep')
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const formatDecimal = require('format-decimal');
 
 //----------------------------------------------------------------------------------------------------------
 const binance = new Binance().options({
